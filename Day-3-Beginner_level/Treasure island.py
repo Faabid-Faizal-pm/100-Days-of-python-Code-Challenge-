@@ -24,8 +24,8 @@ print("Welcome to the treasure is island your mission to find tressure.")
 choice_1= input("which direction would you like to go? type 'left' or 'right'\n")
 
 if choice_1 == 'left':
-    choice_2 = input('You have successfully crossed the road n. '\
-    'now you have to cross the shore type "swim" if you want to swim '\
+    choice_2 = input('You have successfully crossed the road n. '
+    'now you have to cross the shore type "swim" if you want to swim '
     'or type "wait" if you want to wait for boat\n')
     if choice_2 == 'wait':
         choice_3= input('you have succussfully crossed the shore.' 

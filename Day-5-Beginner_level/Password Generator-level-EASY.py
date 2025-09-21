@@ -12,7 +12,7 @@ number=('0', '1', '2', '3', '4', '5', '6', '7', '8', '9')
 
 nr_letters=int(input("enter how many letters you want in your password ="))
 nr_symbols=int(input("enter how many symbols would you like to be in you password ="))
-nr_number=int(input("enter how many symbols would you like to be in you password ="))
+nr_number=int(input("enter how many numbers would you like to be in you password ="))
 
 
 password=''
@@ -26,4 +26,3 @@ for char in range(0,nr_number):
      password += random.choice(number)
 
 print(f"Your password is ={password}")
-              
